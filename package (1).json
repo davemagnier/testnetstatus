@@ -1,0 +1,39 @@
+{
+  "name": "youmio-testnet-chatbot",
+  "version": "1.0.0",
+  "description": "Youmio testnet with Limbo AI chatbot and secure minting system",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'",
+    "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^7.0.0",
+    "@netlify/functions": "^2.8.0",
+    "openai": "^4.52.1",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/youmio-testnet.git"
+  },
+  "keywords": [
+    "youmio",
+    "limbo",
+    "chatbot",
+    "testnet",
+    "web3",
+    "netlify",
+    "blobs",
+    "kells",
+    "avalanche"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
